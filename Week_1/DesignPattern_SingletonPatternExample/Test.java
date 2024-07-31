@@ -5,7 +5,7 @@ public class Test {
         Logger ob1=Logger.getInstance();
         Logger ob2=Logger.getInstance();
         System.out.print(ob1==ob2?"Only one instance of Logger is created.":"Multiple instances of Logger are created.");
-    } 
+    }
  }
 
  class Logger{
